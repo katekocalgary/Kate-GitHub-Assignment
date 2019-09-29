@@ -132,7 +132,28 @@ hr {
   width : 100%;
 }
 
+.section2{
+  grid-row: 2;
+  padding-left: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 
+  
+}
+
+label{
+  padding-top: 15px;
+  padding-bottom: 2px;
+}
+
+input {
+  height: 3em;
+  width: 15em;
+  background-color: #E2DDEF;
+  border: 0;
+  border-radius: 0.3em;
+}
 /* Footer */
 
 
