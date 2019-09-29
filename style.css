@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
 
 *{
@@ -26,7 +27,38 @@ body{
 }
 
 /* Header */
-sadasda
+.headerwrap{
+  grid-column: 2/4;
+}
+
+header {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top:50px;
+}
+
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-basis: column;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  padding-right: 20px;
+  color :#828282;
+
+}
+
+nav a{
+  text-decoration: none;
+  color :#828282;
+}
 
 
 /* Main */
@@ -139,3 +171,4 @@ hr {
 
 
 /* Responsive */
+
