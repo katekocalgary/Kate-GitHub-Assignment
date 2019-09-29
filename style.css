@@ -27,7 +27,40 @@ body{
 }
 
 /* Header */
-sadasda
+
+.headerwrap{
+  grid-column: 1/5;
+}
+
+header {
+  padding: 50px 100px 50px 100px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+nav ul {
+  padding-left: 0;
+
+  list-style-type: none;
+
+  display: flex;
+  flex-basis: column;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  padding-right: 20px;
+  color:white;
+
+}
+
+nav a{
+  text-decoration: none;
+  color:white;
+}
 
 
 /* Main */
@@ -231,31 +264,22 @@ header, .section1, .section2{
   }
 }
 
-@media only screen and (max-width:500px){
-  
-  .frame {
-    width: 100%;
-  }
-  
-  .left {
-    width: 100%;
-  }
-  
-  .right {
-    height: 70vw;
+@media only screen and (max-width:1024px){
+
+  nav ul li {
+    padding-right: 20px;
+    color:#828282;
   }
 
-  .month6 {
-    width:200px;
-    height:200px;
-    top: 0;
-    right: 2px;
+  nav a{
+    text-decoration: none;
+    color:#828282;
   }
-  
-  .month3 {
-    width: 200px;
-    height:200px;
-    top: 50px;
-    right: 130px;
+}
+
+
+@media only screen and (max-width:720px){
+  header{
+    padding: 20px 20px 20px 20px;
   }
 }
