@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#f8ddde;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.frame {
+  background-color: white;
+  width: 80%;
+  border: 0px;
+  border-radius: 2em;
+  margin: auto;
+ 
+
+  display: grid;
+  grid-template-columns: 10px auto auto 10px;
+  grid-template-rows: 5;
+  
+}
+
+/* Header */
+sadasda
+
+
+/* Main */
+
+
+
+
+/* Footer */
+
+
+
+
+/* Responsive */
