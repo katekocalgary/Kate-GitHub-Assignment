@@ -27,38 +27,7 @@ body{
 }
 
 /* Header */
-.headerwrap{
-  grid-column: 2/4;
-}
-
-header {
-  padding-left: 50px;
-  padding-right: 50px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-top:50px;
-}
-
-
-nav ul {
-  padding-left: 0;
-  list-style-type: none;
-  display: flex;
-  flex-basis: column;
-  justify-content: flex-end;
-}
-
-nav ul li {
-  padding-right: 20px;
-  color :#828282;
-
-}
-
-nav a{
-  text-decoration: none;
-  color :#828282;
-}
+sadasda
 
 
 /* Main */
@@ -164,11 +133,31 @@ hr {
   width : 100%;
 }
 
+.section2{
+  grid-row: 2;
+  padding-left: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 
+  
+}
+
+label{
+  padding-top: 15px;
+  padding-bottom: 2px;
+}
+
+input {
+  height: 3em;
+  width: 15em;
+  background-color: #E2DDEF;
+  border: 0;
+  border-radius: 0.3em;
+}
 /* Footer */
 
 
 
 
 /* Responsive */
-
