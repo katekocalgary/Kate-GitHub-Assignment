@@ -28,6 +28,7 @@ body{
   grid-template-rows: 3;
 }
 
+
 /* Header */
 
 .headerwrap{
@@ -140,7 +141,7 @@ p {
   border: 1px solid #4B2BB7;
   border-radius: 20px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
+  
   color: #4B2BB7;
 }
 
@@ -163,7 +164,6 @@ p {
   z-index: 1;
 }
 
-
 .month3 {
   width: 300px;
   height: 300px;
@@ -173,6 +173,7 @@ p {
   right: 130px;
   z-index: 0;
 }
+
 
 hr {
   size: 3px;
@@ -186,6 +187,8 @@ hr {
 
   display: flex;
   flex-direction: column;
+
+  
 }
 
 label{
@@ -207,10 +210,12 @@ button {
   width: 110px;
 }
 
+
 /* Footer */
 
 .footer{
   margin-top: 50px;
+
   padding-top: 2vh;
   padding-left: 100px;
   height: 6vh;
@@ -269,7 +274,6 @@ button {
     height:  400px;
   }
 }
-
 
 @media only screen and (max-width:720px){
   .frame{
