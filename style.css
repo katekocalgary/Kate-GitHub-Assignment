@@ -32,22 +32,23 @@ body{
 /* Header */
 
 .headerwrap{
-  grid-column: 2/4;
+  grid-column: 1/5;
 }
 
 header {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px 100px 50px 100px;
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top:50px;
 }
 
 
 nav ul {
   padding-left: 0;
+
   list-style-type: none;
+
   display: flex;
   flex-basis: column;
   justify-content: flex-end;
@@ -55,14 +56,15 @@ nav ul {
 
 nav ul li {
   padding-right: 20px;
-  color :#828282;
+  color:white;
 
 }
 
 nav a{
   text-decoration: none;
-  color :#828282;
+  color:white;
 }
+
 
 /* Main */
 
@@ -156,7 +158,6 @@ p {
   z-index: 1;
 }
 
-
 .month3 {
   width: 300px;
   height: 300px;
@@ -164,6 +165,7 @@ p {
   top: 80px;
   right: 130px;
 }
+
 
 hr {
   color: lightgray;
@@ -231,11 +233,24 @@ input {
   .frame {
     width: 90%;
   }
+  nav ul li {
+    padding-right: 20px;
+    color:#828282;
+  }
+
+  nav a{
+    text-decoration: none;
+    color:#828282;
+  }
 }
 
 
 @media only screen and (max-width:720px){
   .frame{
     width: 100%;
+  }
+  
+  header{
+    padding: 20px 20px 20px 20px;
   }
 }
